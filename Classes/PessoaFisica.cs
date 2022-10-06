@@ -8,7 +8,13 @@ namespace Classes {
 
         public DateTime dataNascimento { get; set; }
 
+        
+
         public override float calcularImporsto(float rendimento) {
+            throw new NotImplementedException();
+        }
+
+        public override float pagarImposto(float rendimento) {
             throw new NotImplementedException();
         }
 

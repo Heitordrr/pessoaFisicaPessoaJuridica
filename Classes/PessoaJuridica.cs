@@ -11,7 +11,12 @@ namespace Classes {
         public override float calcularImporsto(float rendimento) {
             throw new NotImplementedException();
         }
-          public bool validarCnpj (string cnpj) {
+
+        public override float pagarImposto(float rendimento) {
+            throw new NotImplementedException();
+        }
+
+        public bool validarCnpj (string cnpj) {
             throw new NotImplementedException();
          }
     }

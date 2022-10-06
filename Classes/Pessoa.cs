@@ -10,8 +10,8 @@ namespace Classes {
         public string? endereco { get; set; }
 
         public abstract float calcularImporsto(float rendimento);
-            
 
+        public abstract float pagarImposto(float rendimento);
         
     }
     
