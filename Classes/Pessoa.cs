@@ -7,9 +7,9 @@ namespace Classes {
 
         public float rendimento { get; set; }
 
-        public string? endereco { get; set; }
+        public EnderecoFinal? endereco { get; set; }
 
-        public abstract float calcularImporsto(float rendimento);
+        public abstract float calcularImposto(float rendimento);
 
         public abstract float pagarImposto(float rendimento);
         
